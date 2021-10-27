@@ -1,5 +1,27 @@
 package com.tcarvi.aiquarkustemplate.agent.knowledge;
 
+// Symbols: ¬ ∧ ∨ 
+// To code
+// Union ∨ 
+// Disjunction ∨
+// a ∨ ~a = true
+// a ∨ false = a
+// a ∨ true = true
+// a ∨ b = b ∨ a
+//
+// To code
+// Intersection ∧
+// Conjunction ∧
+// a ∧ ¬a 
+//
+// →  ⊃  ⇒
+// ⇔  ≡  ⟷
+// Domain D
+// ∧  ·  &
+// ∨  +  ∥
+//  \nleftrightarrow  ⊕  ⊻  ≢ 
+// ⊤  T  1  ■
+// 
 /*
  * PropositionalLogicInference
  * The process of deriving new sentences from old ones.

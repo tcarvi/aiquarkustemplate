@@ -1,9 +1,13 @@
 package com.tcarvi.aiquarkustemplate.agent.knowledge;
 
 /*
- * KnowledgeBaseModel
- * A set of sentences known by a knowledge-based agent
+ * KnowledgeBase:
+ * A specific sentence known by a knowledge-based agent
  */
+// Two structures:
+// - A unique sentence of KnowledgeBase 
+// - Or a set of sentences of different KnowledgeBases
+//
 // Exemplo: imply( 
 //                  and( 
 //                        p,
@@ -12,6 +16,6 @@ package com.tcarvi.aiquarkustemplate.agent.knowledge;
 //                  r
 //                )
 
-public class KnowledgeBaseModel {
+public class KnowledgeBase {
     
 }

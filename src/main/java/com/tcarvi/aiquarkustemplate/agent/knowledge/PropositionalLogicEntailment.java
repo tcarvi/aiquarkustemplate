@@ -2,9 +2,15 @@ package com.tcarvi.aiquarkustemplate.agent.knowledge;
 
 /*
  * Entailment 
- * a entails b
- * Fact that in every model in which sentence a is true, sentence b is also true.
- * So... a must be true. And (a ImplicationIfSo b) is also true. 
+ * a entails b ?
+ * We verify, using an inference algorithm, that a → b, that a ⊃ b.
+ * We want to say that a ⇒ b, in a way that we can conclude that b is true.
+ * We want do say that a entails b. That b (our objective of analysis) is true. 
+ * So.
+ * First: a is true in what possible models?
+ * Second: considering only these possible models, b is also true?
+ * If yes, we checked our Knowledge base and it is OK. The KB passed on our test.
+ * So (a ⇒ b ) is true. 
  * What entails that b is also true. 
  */
 
